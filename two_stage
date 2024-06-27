@@ -1,0 +1,2 @@
+nvfortran -fast -Mextract=inlinables.lib -Minfo=inline -Minline other_other_mod.f90 other_mod.f90 main.f90
+nvfortran -fast -Minline=inlinables.lib -Minfo=inline other_other_mod.f90 other_mod.f90 main.f90 -o two_stage_blob

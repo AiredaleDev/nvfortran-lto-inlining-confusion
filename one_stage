@@ -1,0 +1,1 @@
+nvfortran -fast -Minline -Minfo=inline other_other_mod.f90 other_mod.f90 main.f90 -o one_stage_blob
